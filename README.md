@@ -1,2 +1,0 @@
-# Students-Voice
-Java project
