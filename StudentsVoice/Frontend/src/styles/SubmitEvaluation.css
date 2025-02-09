@@ -1,0 +1,100 @@
+/* General styles for the Submit Evaluation form */
+.submit-evaluation {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 800px;
+    background-color: #ffffff;
+    color: #343a40;
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.submit-evaluation:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.submit-evaluation h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color, #4CAF50);
+    font-weight: bold;
+}
+
+.submit-evaluation form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* More spacing between form elements */
+}
+
+.submit-evaluation form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-evaluation label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #6c757d; /* Subtle gray for labels */
+    font-weight: 600;
+}
+
+.submit-evaluation input,
+.submit-evaluation select,
+.submit-evaluation textarea {
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+    background-color: #f8f9fa;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.submit-evaluation input:focus,
+.submit-evaluation select:focus,
+.submit-evaluation textarea:focus {
+    border-color: var(--primary-color, #4CAF50);
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+    outline: none;
+}
+
+.submit-evaluation textarea {
+    resize: vertical; /* Allow resizing only vertically */
+    min-height: 120px;
+}
+
+.submit-evaluation button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--primary-color, #4CAF50);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-evaluation button:hover {
+    background-color: var(--primary-hover, #45a049);
+    transform: scale(1.05);
+}
+
+.submit-evaluation button:active {
+    transform: scale(0.98);
+}
+
+.submit-evaluation button:disabled {
+    background-color: #d6d6d6;
+    cursor: not-allowed;
+}
+
+.submit-evaluation .error {
+    color: var(--danger-color, #f44336);
+    font-size: 0.875rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}

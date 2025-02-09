@@ -1,0 +1,22 @@
+/* General Variables */
+:root {
+  --primary-color: #4CAF50;
+  --primary-hover: #45a049;
+  --secondary-color: #213547;
+  --accent-color: #535bf2;
+  --danger-color: #f44336;
+  --light-bg: #f9f9f9;
+  --white: #ffffff;
+  --text-color: #555;
+  --font-family: 'Arial', sans-serif;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #f4f4f9;
+  font-family: var(--font-family), sans-serif;
+}

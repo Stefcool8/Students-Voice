@@ -1,0 +1,18 @@
+/* Dashboard Page */
+.dashboard-page {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+
+.dashboard-page h2 {
+    color: var(--secondary-color);
+}
+
+.dashboard-page p {
+    color: var(--text-color);
+}

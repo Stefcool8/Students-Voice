@@ -1,0 +1,42 @@
+.evaluations-admin {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    color: #343a40;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.evaluations-admin h1,
+.evaluations-admin h2,
+.evaluations-admin h3 {
+    color: #007bff;
+}
+
+.evaluations-admin table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.evaluations-admin table th,
+.evaluations-admin table td {
+    border: 1px solid #dee2e6;
+    padding: 0.75rem;
+}
+
+.evaluations-admin table th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.evaluations-admin table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.evaluations-admin table tr:hover {
+    background-color: #e9ecef;
+}

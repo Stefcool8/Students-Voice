@@ -1,0 +1,18 @@
+/* Footer */
+footer {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Ensure it spans the viewport width */
+    box-shadow: var(--box-shadow);
+}
+
+#root footer {
+    max-width: 1280px; /* Match the #root max-width */
+    margin: 0 auto; /* Center the footer horizontally */
+    left: 0;
+    right: 0;
+}

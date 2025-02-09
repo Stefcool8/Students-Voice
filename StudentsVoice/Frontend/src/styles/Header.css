@@ -1,0 +1,13 @@
+/* Header */
+.header {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    color: var(--white);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
